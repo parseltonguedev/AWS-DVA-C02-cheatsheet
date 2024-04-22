@@ -53,7 +53,6 @@ Difference between EKS and ECS:
 - supports both Amazon ECS and Amazon EKS architecture and provides workload isolation and improved security by design.
 - abstracts the EC2 instance so that you’re not required to manage the underlying compute infrastructure.
 - you can use all the same Amazon ECS concepts, APIs, and AWS integrations.
-
 ![fargate.png](fargate.png)
 
 
