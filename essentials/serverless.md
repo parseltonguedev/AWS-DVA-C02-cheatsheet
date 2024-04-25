@@ -9,7 +9,7 @@ A container is a standardized unit that packages your code and its dependencies.
 
 ### Difference between VMs and Containers
 
-![VM_vs_Container.png](VM_vs_Container.png)
+![VM_vs_Container.png](images/VM_vs_Container.png)
 
 Compared to virtual machines (VMs), containers share the same operating system and kernel as the host that they are deployed on.
 Containers share the same operating system and kernel as the host that they exist on. But virtual machines contain their own operating system.
@@ -17,10 +17,10 @@ Containers can provide speed, but virtual machines offer the full strength of an
 
 ### AWS container orchestration services:
 - Amazon Elastic Container Service (Amazon ECS) - is an end-to-end container orchestration service that helps you spin up new containers.
-![ecs.png](ecs.png)
+![ecs.png](images/ecs.png)
 EC2 instance with the container agent installed is often called a container instance (to have more control by running and managing your containers on a cluster of Amazon EC2 instances).
 Container agent is open source and responsible for communicating to the Amazon ECS service about cluster management details.
-![EC2_container_agent.png](EC2_container_agent.png)
+![EC2_container_agent.png](images/EC2_container_agent.png)
 
 When the Amazon ECS container instances are up and running, you can perform:
 - Launching and stopping containers
@@ -53,7 +53,7 @@ Difference between EKS and ECS:
 - supports both Amazon ECS and Amazon EKS architecture and provides workload isolation and improved security by design.
 - abstracts the EC2 instance so that you’re not required to manage the underlying compute infrastructure.
 - you can use all the same Amazon ECS concepts, APIs, and AWS integrations.
-![fargate.png](fargate.png)
+![fargate.png](images/fargate.png)
 
 
 ### AWS Lambda

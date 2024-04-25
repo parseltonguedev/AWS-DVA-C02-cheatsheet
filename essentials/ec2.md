@@ -53,7 +53,7 @@ When architecting any application for high availability, consider using at least
 
 An EC2 instance transitions between different states from the moment you create it until its termination.
 
-![ec2_instance_lifecycle.png](ec2_instance_lifecycle.png)
+![ec2_instance_lifecycle.png](images/ec2_instance_lifecycle.png)
 
 1 - When you launch an instance, it enters the pending state. When an instance is pending, billing has not started. At this stage, the instance is preparing to enter the running state. Pending is where AWS performs all actions needed to set up an instance, such as copying the AMI content to the root device and allocating the necessary networking components.
 
